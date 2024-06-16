@@ -25,7 +25,7 @@ const Navbar = () => {
           {
             ['Electronics', 'Sports', 'Home', 'Vehical', 'Books', 'Clothes', 'Bed & Bath', 'Tabletop', 'Furniture', 'New Arrivals']
               .map((currElem, index) => {
-                return <li className="navList" key={index}><NavLink to={`/${currElem}`} className='navLink'>{currElem}</NavLink></li>
+                return <li className="navList" key={index}><NavLink to={`/${currElem}`} onClick={() => setToggleNav(false)} className='navLink'>{currElem}</NavLink></li>
               })
           }
         </ul>
