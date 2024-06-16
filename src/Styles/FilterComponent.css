@@ -1,0 +1,80 @@
+.filterComponent {
+    background-color: rgb(73, 72, 72);
+    padding: 1rem;
+    width: 35vw;
+    color: #d0d0d0;
+}
+
+.filterTitle {
+    margin: 0.5rem 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filterTitle svg {
+    cursor: pointer;
+}
+
+.categoryFilter {
+    margin: 0.5rem 0 3.5rem;
+}
+
+.categories h4{
+    margin-bottom: 1rem;
+}
+
+.priceFilter {
+    margin-bottom: 0.5rem;
+}
+
+.colorsFilter {
+    margin: 0.5rem auto 3rem;
+}
+
+.colors {
+    gap: 0.5rem;
+}
+
+.colors .color {
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.colors .color:first-child {
+    background-color: red;
+}
+
+.colors .color:last-child {
+    background-color: orange;
+}
+
+.colors .color:nth-child(2) {
+    background-color: green;
+}
+
+.colors .color:nth-child(3) {
+    background-color: blue;
+}
+
+.colors .color:nth-child(4) {
+    background-color: pink;
+}
+
+.colors .color:nth-child(5) {
+    background-color: gold;
+}
+
+.range {
+    align-items: center;
+    gap: 1rem;
+}
+
+.range input {
+    width: 100%;
+}
+
+.hideFilter {
+    display: none;
+}

@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: sans-serif;
+}
+
+
+body {
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+section:first-child {
+  margin-top: 0;
+}
+section {
+  margin: 3rem 0;
+}
+.main {
+  padding: 0 9%;
+}
+
+a {
+  color: black;
+  font-weight: bolder;
+}
+
+.flex {
+  display: flex;
+}
+
+.active {
+  color: rgb(244, 150, 166);
+}
+
+@media screen and (max-width: 1145px) {
+  .main {
+    padding: 0 5%;
+  }
+}

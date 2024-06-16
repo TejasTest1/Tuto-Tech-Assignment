@@ -1,0 +1,79 @@
+.navbar {
+    height: 5.5rem;
+    box-shadow: 0 0 15px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navItems {
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.cart {
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.hamburgerMenu {
+    display: none;
+}
+
+@media screen and (max-width:1200px) {
+    body, html {
+        overflow-x: hidden;
+    }
+
+    .hamburgerMenu {
+        display: initial;
+        position: relative;
+        z-index: 100;
+    }
+
+    .line {
+        height: 0.3rem;
+        width: 2rem;
+        background-color: black;
+        margin-bottom: 0.2rem;
+        border-radius: 0.2rem;
+        transition: all 300ms ease;
+    }
+
+    .navItems {
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+        background-color: rgb(216, 231, 242);
+        position: fixed;
+        top: 0;
+        right: 100%;
+        align-items: center;
+        z-index: 99;
+        transition: right 300ms ease;
+    }
+
+    .navItems .navList a {
+        font-size: 2rem;
+    }
+
+    .toggleItems {
+        right: 0;
+    }
+
+
+    .toggleHam .line:first-child {
+        transform: rotateZ(45deg) translate(11px);
+    }
+
+    .toggleHam .line:last-child {
+        transform: rotateZ(-45deg) translate(12px);
+    }
+
+    .toggleHam .line:nth-child(2) {
+        opacity: 0;
+
+    }
+
+
+}
+

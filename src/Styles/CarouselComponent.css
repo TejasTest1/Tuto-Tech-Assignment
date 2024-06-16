@@ -1,0 +1,26 @@
+.SlideImg img{
+    height: 7rem;
+    width: 15rem;
+    margin: auto;
+}
+
+@media screen and (max-width:1025px) {
+    .SlideImg img{
+        height: 5rem;
+        width: 12rem;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .SlideImg img{
+        height: 3rem;
+        width: 6rem;
+    }
+}
+
+@media screen and (max-width:321px) {
+    .SlideImg img{
+        height: 3rem;
+        width: 4rem;
+    }
+}
